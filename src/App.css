@@ -12,33 +12,33 @@
 }
 
 .activeCard {
-   color: black;
-   background: gainsboro;
-   font-size: 40px;
+   color: rgb(253, 247, 247);
+   background: rgb(39, 16, 16);
+   font-size: 60px;
 }
 
 .rightAns {
-   color: darkblue;
-   background: cornsilk;
+   color: rgb(3, 3, 3);
+   background: rgb(18, 155, 148);
    text-align: center;
    font-style: bold;
 }
 
 .blank{
-   color: white;
-   background: white;
+   color: rgb(145, 35, 95);
+   background: rgb(145, 35, 95);
 }
 
 h1{ 
   text-align: center;
   font-size: 100px;
-  color:gold;
+  color:rgb(226, 14, 67);
 }
 
 h2{
    text-align: center;
-   font-size: 45px;
-   color: antiquewhite;
+   font-size: 55px;
+   color: rgb(125, 241, 160);
 }
 
 body {
