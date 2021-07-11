@@ -1,10 +1,10 @@
 .card {
   display: inline-block;
   /* text-indent: -9999px; */
-  width: 6em;
-  height: 4em;
-  font-size: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 2em;
+  height: 2em;
+  font-size: 35px;
+  box-shadow: 0 4px 8px 0 rgb(186, 206, 6);
   margin: 2.2em;
   text-align: center;
   font-style: bold;
@@ -14,7 +14,7 @@
 .activeCard {
    color: rgb(253, 247, 247);
    background: rgb(39, 16, 16);
-   font-size: 60px;
+   font-size: 40px;
 }
 
 .rightAns {
