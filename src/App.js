@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
+import './App.css';
 import WordCard from './WordCard';
-import CharacterCard from './CharacterCard';
-const word = "Monday";
-const a = 1;
-function App() {
-    return (
-        <div>
-        <WordCard value="Monday" />
-        </div>
-        );
-}
-export default App;
 
+const word = "AABBCCDDEEFF";
+function App() {
+  return (
+    <body ><h1>Welcome to my Game!</h1>
+          <h2>Try to match all the same Alphabet! </h2>
+    <div>
+      <WordCard value={word}/>
+    </div>
+    </body>
+  );
+}
+
+export default App;
